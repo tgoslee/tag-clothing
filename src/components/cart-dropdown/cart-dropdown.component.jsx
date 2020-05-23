@@ -23,8 +23,7 @@ const CartDropdown = ({cartItems, history,dispatch}) => (
             history.push('/checkout');
             dispatch(toggleCartHidden())
         }}
-        >
-            CHECKOUT</CustomButton>
+        >CHECKOUT</CustomButton>
     </div>
 );
 const mapStateToProps = createStructuredSelector({
